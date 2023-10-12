@@ -25,6 +25,8 @@ function App() {
     setSkills(function (preState) {
       return [...preState, newSkill ]
     })
+    
+    event.target.reset()
   }
 
   return (
